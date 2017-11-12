@@ -1,0 +1,19 @@
+{
+  "name": "micro-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+	"start": "micro",
+	"dev": "micro-dev",
+	"deploy": "DEBUG=now:* now --debug -e NODE_ENV=production"
+  },
+  "engines": {
+	"node": "9.x.x"
+  },
+  "dependencies": {
+    "micro": "^9.0.1"
+  },
+  "devDependencies": {
+    "micro-dev": "^1.4.0"
+  }
+}
