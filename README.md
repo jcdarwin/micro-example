@@ -8,6 +8,9 @@ Note that the aws deployment defaults to us-west-1, regardless of whether you've
 
 The code for [now-cli](https://github.com/zeit/now-cli) is open source, and worth a look through.
 
+Note that the aws dpeloyment produces an error: `{"message": "Internal server error"}`, and [this issue](https://github.com/zeit/now-cli/issues/761) explains things further.
+
+
 ## Usage
 
 	# install dependencies
