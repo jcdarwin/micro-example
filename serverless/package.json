@@ -1,0 +1,16 @@
+{
+	"name": "micro-example-serverless",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"deploy:local": "sls offline start --verbose",
+		"deploy:dev": "NODE_ENV=dev sls deploy --verbose"
+	},
+	"author": "Jason Darwin",
+	"license": "UNLICENSED",
+	"dependencies": {
+	},
+	"devDependencies": {
+		"serverless-offline": "^3.16.0"
+	}
+}
